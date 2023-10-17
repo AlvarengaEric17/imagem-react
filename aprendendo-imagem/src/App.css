@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+  background-color: #948e88;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.App {
+  padding: 2%;
+  text-align: center;
+}
+
+h1 {
+  color: #FFF;
+}
+
+input {
+  border-radius: 8px;
+  border: solid 1px #FFF;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: #FFF;
+}
+
+input:focus {
+  outline: #f00000;
+}
+
+button {
+  border-radius: 8px;
+  color: #FFF;
+  background-color: #948e88;
+  border: solid 1px #FFF;
+  padding: 10px;
+  margin-left: 20px;
+}
